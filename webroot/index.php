@@ -62,7 +62,10 @@ if (!defined('APP_DIR')) {
  * The following line differs from its sibling
  * /app/webroot/index.php
  */
-define('CAKE_CORE_INCLUDE_PATH',  DS . 'home' . DS . 'genese' . DS . '.cakephp' . DS . 'lib');
+
+// configurar assim:
+define('CAKE_CORE_INCLUDE_PATH',  DS . 'home' . DS . 'usuario' . DS . '.cakephp' . DS . 'lib');
+// sendo usuario o nome do seu user e .cakephp um diretório contendo o framework
 
 /**
  * Editing below this line should NOT be necessary.
